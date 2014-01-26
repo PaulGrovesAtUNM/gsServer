@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1390695780 source:/home/paul/Desktop/Projects/gumtixServer/main.cpp
+	<iostream>
+	"./include/gustixServer.h"
+	"./include/shareInt.h"
+
+1390677800 /home/paul/Desktop/Projects/gumtixServer/include/gustixServer.h
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<pthread.h>
+	<strings.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+	"netSharedMemory.h"
+
+1390677470 /home/paul/Desktop/Projects/gumtixServer/include/netSharedMemory.h
+
+1390695950 /home/paul/Desktop/Projects/gumtixServer/include/shareInt.h
+	<unistd.h>
+	"netSharedMemory.h"
+
+1390695539 source:/home/paul/Desktop/Projects/gumtixServer/src/gustixServer.cpp
+	"../include/gustixServer.h"
+	<iostream>
+
+1390676882 source:/home/paul/Desktop/Projects/gumtixServer/src/netSharedMemory.cpp
+	"../include/netSharedMemory.h"
+
+1390678304 source:/home/paul/Desktop/Projects/gumtixServer/src/shareInt.cpp
+	"../include/shareInt.h"
+
